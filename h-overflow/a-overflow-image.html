@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>overflow - image</title>
+    <style>
+        #banner {
+            width: 1900px;
+            height: 370px;
+            overflow: hidden;
+        }
+
+        .banner-wrap {
+            width: 3800px;
+            height: 370px;
+            display: flex;
+            transform: translate(-1900px);
+        }
+
+        .banner { 
+            width: 1900px;
+            height: 370px;
+        }
+
+        .banner img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="banner">
+        <div class="banner-wrap">
+            <div class="banner">
+                <img src="https://product-image.kurly.com/hdims/resize/%3E1900x%3E370/quality/85/src/banner/main/pc/img/677cfc28-7686-4338-b724-bd5318decb54.png">
+            </div>
+            <div class="banner">
+                <img src="https://product-image.kurly.com/hdims/resize/%3E1900x%3E370/quality/85/src/banner/main/pc/img/e1b1352f-b6ff-41ea-bc59-8f08d502caec.jpg">
+            </div>
+        </div>
+    </div>
+</body>
+</html>

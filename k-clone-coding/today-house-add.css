@@ -1,0 +1,603 @@
+
+body, html {
+    font-family: Pretendard Variable, Noto Sans KR;
+}
+
+html {
+    font-family: 'Pretendard Variable', sans-serif;
+    letter-spacing: -0.3px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.layout, .page, body, html {
+    height: 100%;
+}
+
+body, html {
+    line-height: 1;
+    font-family: Pretendard Variable, Noto Sans KR, Apple SD Gothic Neo, ë§‘ì  € ê³ ë”•, Malgun Gothic, sans-serif;
+    font-size: 13px;
+}
+
+html {
+    color: #424242;
+    background: #fff;
+}
+
+input, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a * {
+    border: none;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+
+
+.css-section01 {
+    padding-top: 40px;
+    width: calc(100% - 30px);
+    margin: auto;
+}
+
+.width {
+    width: 360px;
+    MARGIN: 0 AUTO;
+    padding: 60px 0;
+}
+
+.css-div {
+    margin: 30px 0;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #ededed;
+}
+
+.css-div-h1 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.css-div-sns {
+    
+}
+
+.sns-add {
+    font-size: 12px;
+    text-align: center;
+    margin: 15px 0;
+    color: #757575;
+}
+
+.css-ul-link {
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+}
+
+.css-li-link {
+    margin: 0 10px;
+}
+
+.label-form {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2F3438;
+    letter-spacing: -0.3px;
+    word-break: keep-all;
+}
+
+.input-data {
+    display: flex;
+}
+
+.email-input-domain, .email-input-local {
+    position: relative;
+    -webkit-box-flex: 1;
+    flex: 1 1 0px;
+}
+
+.email-input-local {
+    width: 100%;
+}
+
+.form-control {
+    font-size: 15px;
+    width: 100%;
+    display: block;
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    padding: 0 15px;
+    line-height: 40px;
+    border-radius: 4px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    color: #424242;
+}
+
+.form-control-blind {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
+
+.email-input-separator {
+    -webkit-box-flex: 0;
+    flex: 0 0 20px;
+    text-align: center;
+    line-height: 40px;
+    color: #dbdbdb;
+    box-shadow: none;
+}
+
+select {
+    -webkit-appearance: none;
+}
+
+.form-control empty {
+    font-size: 15px;
+    width: 100% 
+}
+
+.form-control::placeholder {
+    color: #bdbdbd
+}
+
+.password-input::placeholder {
+     color: #bdbdbd
+}
+
+.password-check-input::placeholder {
+     color: #bdbdbd
+}
+
+.nickname-input::placeholder {
+     color: #bdbdbd
+}
+
+.email-input__domain__expand {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    background: none;
+    border: none;
+    font-size: 0;
+    cursor: default;
+    color: rgba(0, 0, 0, .3);
+}
+
+.email-button-div {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 2px;
+}
+
+
+.email-button {
+    width: 100%;
+    height: 45px;
+    padding: 0;
+    background: #f7f8fa;
+    color: #c2c8cc;
+    border-color: #dadce0;
+    line-height: 20px;
+    font-size: 17px;
+    min-height: 50px;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    font-family: Noto Sans KR, Noto Sans CJK KR, 맑은 고딕, Malgun Gothic, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    transition: color .1s, background-color .1s, border-color .1s;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: none;
+    border: 1px solid #dbdbdb;
+}
+
+.password-div {
+    margin-bottom: 30px;
+}
+
+.password-label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2F3438;
+    letter-spacing: -0.3px;
+    word-break: keep-all;
+}
+
+.password-label-in {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828C94;
+    letter-spacing: -0.3px;
+}
+
+.password-input {
+    padding: 8px 15px 9px;
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Noto Sans KR, Noto Sans CJK KR, 맑은 고딕, Malgun Gothic, sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    transition: border-color .1s, background-color .1s;
+    resize: none;
+    box-shadow: none;
+
+}
+
+.password-span {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
+
+.password-check-div {
+    margin-bottom: 30px;
+}
+
+.password-check-label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2F3438;
+    letter-spacing: -0.3px;
+    word-break: keep-all;
+}
+
+.password-check-input {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 8px 15px 9px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Noto Sans KR, Noto Sans CJK KR, 맑은 고딕, Malgun Gothic, sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    transition: border-color .1s, background-color .1s;
+    resize: none;
+    box-shadow: none;
+}
+
+.password-check-span {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
+
+.nickname-div {
+    margin-bottom: 30px;
+}
+
+.nickname-label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2F3438;
+    letter-spacing: -0.3px;
+    word-break: keep-all;
+}
+
+.nickname-label-div {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 18px;
+    color: #828C94;
+    letter-spacing: -0.3px;
+}
+
+.nickname-input {
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+    padding: 8px 15px 9px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    color: #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Noto Sans KR, Noto Sans CJK KR, 맑은 고딕, Malgun Gothic, sans-serif;
+    font-size: 15px;
+    line-height: 21px;
+    transition: border-color .1s, background-color .1s;
+    resize: none;
+    box-shadow: none;
+}
+
+.nickname-span {
+    overflow: hidden;
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    white-space: nowrap;
+}
+
+.agree {
+    margin-bottom: 30px;
+}
+
+.agree-label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 700;
+    color: #2F3438;
+    letter-spacing: -0.3px;
+    word-break: keep-all;
+}
+
+.agree-div {
+    padding: 18px;
+    border: 1px solid #EAEDEF; 
+}
+
+.agree-div-hr {
+    padding: 0;
+    height: 1px;
+    border: none;
+    background-color: #EAEDEF;
+    margin: 18px 0;
+}
+
+.agree-div-inner {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.agree-div-inner-margin {
+    margin-top: 20px;
+}
+
+.agree-inner-label {
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    cursor: pointer;
+    flex: 1;
+}
+
+.agree-inner-label-a {
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    cursor: pointer;
+    flex: 1;
+    width: 90%;
+}
+
+.agree-inner-div {
+    display: inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border: 1px solid;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border-color: #E6E6E6;
+    background-color: #FFFFFF;
+    -webkit-transition: border-color 0.1s, background-color 0.1s;
+    transition: border-color 0.1s, background-color 0.1s;
+    flex-shrink: 0;
+}
+
+.inner-checkbox {
+    position: absolute;
+    overflow: hidden;
+    top: 3.6px;
+    left: 3px;
+    width: 0px;
+    height: 12px;
+    -webkit-transition: width 0.2s 0.1s;
+    transition: width 0.2s 0.1s;
+}
+
+.inner-check {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 1;
+    vertical-align: top;
+    color: #FFFFFF;
+}
+
+.css-8um586 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    cursor: pointer;
+}
+
+.agree-inner-span {
+    flex: 1;
+    font-size: 16px;
+    line-height: 20px;
+    margin-left: 6px;
+    color: #2F3438;
+}
+
+
+
+
+.all-agree {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 700;
+    letter-spacing: -0.3px;
+}
+
+.css-10odp2i {
+    display: inline-block;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #828C94;
+}
+
+.css-1afr2ti {
+    margin-left: 8px;
+    color: #2F3438;
+}
+
+.fourteen {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+}
+
+.fourteen-event{
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.3px;
+}
+
+.fourteen-event::after{
+    content: "(선택)";
+    display: inline-block;
+    padding-left: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #828C94;
+}
+
+.fourteen-inner {
+    display: inline-block;
+    padding-left: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #0AA5FF;
+}
+
+.choice-inner {
+    display: inline-block;
+    padding-left: 2px;
+    font-size: 12px;
+    line-height: 20px;
+    color: #828C94;
+}
+
+.reCAPTCHA {
+    transform: scale(1.19);
+    transform-origin: 0 0;
+    height: 92px;
+}
+
+.mb {
+    margin-bottom: 30px;
+}
+
+.css-eivff4 {
+    display: none;
+}
+
+.register {
+    width: 100%;
+    font-size: 17px;
+    line-height: 26px;
+    background-color: #0aa5ff;
+    border-color: #0aa5ff;
+    color: #fff;
+    user-select: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    font-family: Noto Sans KR, Noto Sans CJK KR, 맑은 고딕, Malgun Gothic, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    transition: color .1s, background-color .1s, border-color .1s;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.dobutton {
+    padding: 11px 10px;
+}
+
+.already-id {
+    color: #424242;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.login-href {
+    text-decoration: underline;
+    font-weight: bold;
+    display: inline-block;
+    padding-left: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+
+
+

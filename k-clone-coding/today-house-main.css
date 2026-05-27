@@ -1,0 +1,642 @@
+@font-face {
+            font-family: OhouseIcon;
+            src: url(./fonts/OhouseIcon.woff2);
+        }
+
+.layout, .page, body, html {
+    height: 100%;
+}
+
+body, html {
+    line-height: 1;
+    font-family: Pretendard Variable, Noto Sans KR, Apple SD Gothic Neo, 맑은 고딕, Malgun Gothic, sans-serif;
+    font-size: 13px;
+}
+
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+body {
+    display: block;
+}
+
+html {
+    font-family: 'Pretendard Variable', sans-serif;
+    letter-spacing: -0.3px;
+    -webkit-font-smoothing: antialiased;
+}
+
+html {
+    color: #424242;
+    background: #fff;
+}
+
+.body-wrap {
+    height: 100%;
+}
+
+.layout {
+    display: flex;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.up-banner-wrap {
+    display: block;
+    position: relative;
+    z-index: 1000;
+}
+
+.up-banner {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 50%;
+    background-color: rgb(20, 150, 244);
+    left: 0px;
+}
+
+.up-banner-01 {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    width: 50%;
+    background-color: rgb(20, 150, 244);
+    right: 0px;
+}
+
+.up-banner-div {
+    padding: 0 60px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    max-width: 1156px;
+    margin: 0 auto;
+    padding: 0 40px;
+}
+
+.up-banner-img {
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    background-image: url(https://prs.ohouse.com/apne2/commerce/uploads/store/banners/store_top_banners/v1-416350341693568.png);
+    background-color: #1496f4;
+    position: relative;
+    height: 50px;
+    -webkit-background-size: auto 100%;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    -webkit-background-position: center;
+    background-position: center; 
+    z-index: 1;
+}
+
+.banner-close-wrap {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    display: block;
+    margin: -25px 0 0;
+    padding: 12px;
+    color: white;
+    width: 48px;
+    height: 48px;
+    box-sizing: border-box;
+    font-size: 0;
+    line-height: 0;
+}
+
+.css-1fqbgll {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 1;
+    color: #FFFFFF;
+}
+
+.css-1fqbgll::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+}
+
+._dismiss_thick_24:before {
+    content: "\e9c6";
+}
+
+.menu-div {
+    background: #FFFFFF;
+    border-bottom: 1px solid #EAEDEF;
+}
+
+.menu-div-inner {
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-width: 1256px;
+    margin: 0 auto;
+    padding: 0 60px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    line-height: 0;
+}
+
+.inner-01 {
+    flex: 0 0 auto;
+    display: block;
+    margin-left: -7px;
+}
+
+.inner-button {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    padding: 6px;
+    margin: 3px 1px;
+    color: #2F3438;
+    outline: none;
+}
+
+.css-cwcsvq {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.css-cwcsvq::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+}
+
+._menu_24:before {
+    content: "\ea05";
+}
+
+.inner-02 {
+    margin-right: 35px;
+    position: static;
+    flex: 0 0 auto;
+    color: #212629;
+}
+
+.css-zo5nnc {
+    height: 30px;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    margin: -4px;
+    padding: 4px;
+    font-size: 0;
+    line-height: 0;
+    color: #212629;
+    outline: none;
+}
+
+.css-g6wmop {
+        height: 30px;
+    }
+
+.css-g6wmop {
+    vertical-align: top;
+    width: auto;
+}
+
+.inner-03 {
+    display: block;
+    flex: 1 1 0px;
+    white-space: nowrap;
+}
+
+.css-i9d4z5 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 21px 5px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+    color: #2F3438;
+    outline: none;
+    color: #0AA5FF;
+    color: #0AA5FF;
+}
+
+.css-18nk785 {
+    display: inline-block;
+    margin: -4px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.css-17pd7mp {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 21px 5px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+    color: #2F3438;
+    outline: none;
+}
+
+.css-18nk785 {
+    display: inline-block;
+    margin: -4px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.css-17pd7mp {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 21px 5px;
+    font-size: 18px;
+    line-height: 1;
+    font-weight: bold;
+    color: #2F3438;
+    outline: none;
+}
+
+.css-18nk785 {
+    display: inline-block;
+    margin: -4px;
+    padding: 4px;
+    border-radius: 3px;
+}
+
+.inner-04-wrap {
+     flex: 0 1 650px;
+}
+
+.inner-04 {
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    -webkit-justify-content: flex-end;
+    justify-content: flex-end;
+    line-height: 0;
+}
+
+.search-wrap {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    line-height: 0;
+    
+}
+
+.css-1o64euu {
+    margin-right: 14px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 1 1 0px;
+    min-width: 0;
+    margin-right: 9px;
+}
+
+.css-7whenc {
+    display: flex;
+    width: 100%;
+}
+
+.css-12hox0v {
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    line-height: 0;
+    box-sizing: border-box;
+    border: 1px solid #E6E6E6;
+    border-radius: 4px;
+    height: 40px;
+    padding: 0 14px;
+    width: 100%;
+}
+
+.css-hkiqzb {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 1;
+    vertical-align: middle;
+    padding-right: 6px;
+    color: #828C94;
+}
+
+.css-hkiqzb::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+}
+
+._search_24:before {
+    content: "\ea4d";
+}
+
+.css-12hox0v >input {
+    width: 100%;
+}
+
+.css-pxfbsp {
+    box-sizing: border-box;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0;
+    flex: 1 0 0;
+    vertical-align: middle;
+    outline: none;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    height: 100%;
+    color: #2F3438;
+    outline: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 6px;
+}
+
+ .css-pxfbsp::placeholder {
+    color: #C2C8CC;
+}
+
+
+.css-s5xdrg {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.search-none {
+    display: none;
+}
+
+.css-ing6sa {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    padding: 6px;
+    margin: 3px 1px;
+    color: #2F3438;
+    line-height: 0;
+    outline: none;
+}
+
+.css-cwcsvq {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 1;
+}
+
+.css-cwcsvq::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+}
+
+._search_24:before {
+    content: "\ea4d";
+}
+
+.css-psqmvv {
+    margin: 9px 1px;
+}
+
+.css-psqmvv {
+    position: relative;
+    display: inline-block;
+    padding: 6px;
+    margin: 3px 1px;
+    color: #2F3438;
+    line-height: 0;
+    outline: none;
+}
+
+.css-17vaqfq {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 1;
+    font-size: 24px;
+}
+
+.css-17vaqfq::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+}
+
+._cart_24:before {
+    content: "\e94e";
+}
+
+.login-add-center-write {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.css-1kpxvh4 {
+    display: flex;
+    margin: 0 10px 0 8px;
+}
+
+.css-1g5o6hv:first-of-type {
+    border-left: none;
+}
+
+.css-1g5o6hv {
+    font-size: 14px;
+    line-height: 18px;
+    color: #2F3438;
+    padding: 0 10px;
+    border-left: 1px solid #EAEDEF;
+}
+
+.css-1tlac5g {
+    font-size: 14px;
+    line-height: 18px;
+    color: #2F3438;
+    padding: 0 10px;
+    border-left: 1px solid #EAEDEF;
+}
+
+.css-1amee4m {
+    line-height: 0;
+}
+
+.css-1we22lp {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    font: inherit;
+    font-size: 14px;
+    line-height: 18px;
+    display: inline-flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    width: auto;
+    height: 40px;
+    border-radius: 4px;
+    padding: 0 16px;
+    font-weight: 400;
+    box-sizing: border-box;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #0AA5FF;
+    outline: none;
+    overflow: hidden;
+}
+
+.css-cdruys {
+    margin-right: 6px;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+
+.css-ae93ov {
+    font-size: 18px;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.css-ae93ov::before {
+    font-family: OhouseIcon;
+    vertical-align: top;
+}
+
+._chevron_down_18:before {
+    content: "\e961";
+}
+
+.category-div {
+    background: #FFFFFF;
+    border-bottom: 1px solid #EAEDEF;
+}
+
+.category-div-inner {
+    max-width: 1256px;
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.category-div-inner {
+    width: 100%;
+    padding: 0 16px;
+    box-sizing: border-box;
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+.category-inner01 {
+    flex: 1 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

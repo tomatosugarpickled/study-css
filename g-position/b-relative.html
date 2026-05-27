@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!-- 
+    relative(상대적인)
+    현재 레이아웃을 유지하고, 해당 위치에서 세부 조절이 필요할 때 사용한다.
+    left, right, top, bottom 속성을 사용할 수 있다.
+    현재 나의 위치를 기준으로 움직일 수 있다.
+    자식 요소에 absolute가 있을 경우, 그 자식 요소들의 기준점이 된다.
+-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position - relative</title>
+    <style>
+        /* #relative {
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            position: relative;
+            top: 30px;
+        }
+
+        #div {
+            width: 200px;
+            height: 100px;
+            background-color: red;
+        } */
+
+    </style>
+</head>
+<body>
+    <!-- <div id="relative"></div>
+    <div id="div"></div> -->
+
+    <!-- 
+    relative(상대적인)
+    현재 레이아웃을 유지하고, 해당 위치에서 세부 조절이 필요할 때 사용한다.
+    left, right, top, bottom 속성을 사용할 수 있게 된다.
+    현재 나의 위치를 기준으로 움직일 수 있다.
+    자식 요소에 absolute가 있을 경우, 그 자식 요소들의 기준점이 된다.
+    absolute의 기준점이 된다.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position - relative</title>
+    <style>
+        /* #relative {
+            width: 200px;
+            height: 100px;
+            background-color: yellow;
+            position: relative;
+            top: 40px;
+        }
+
+        #div {
+            width: 200px;
+            height: 100px;
+            background-color: red;
+        } */
+        #element1, #element2, #element3 {
+            width: 200px;
+            height: 100px;
+            position: relative;
+        }
+
+        #element1 {
+            background-color: orange;
+        }
+
+        #element2 {
+            background-color: brown;
+        }
+
+        #element3 {
+            background-color: yellow;
+            right: 0;
+        }
+
+        div.in {
+            width: 50px;
+            height: 50px;
+            position: absolute;
+        }
+
+        div.e1-1 {
+            background-color: red;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%)
+        }
+
+        div.e1-2 {
+            background-color: pink;
+            right: 0;
+        }
+
+        div.e2-1 {
+            background-color: black;
+            bottom: 0;
+            right: 50%;
+            translate: calc(50%);
+        }
+
+        div.e3-1 {
+            background-color: aqua;
+        }
+
+        div.e3-2 {
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="relative"></div>
+    <div id="div"></div> -->
+
+    <div id="element1">
+        <div class="in e1-1"></div>
+        <div class="in e1-2"></div>
+    </div>
+    <div id="element2">
+        <div class="in e2-1"></div>
+    </div>
+    <div id="element3">
+        <div class="in e3-1"></div>
+        <div class="in e3-2"></div>
+    </div>
+</body>
+</html>
+</body>
+</html>

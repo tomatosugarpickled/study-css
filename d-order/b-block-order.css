@@ -1,0 +1,37 @@
+#a {
+    width: 800px;
+    height: 750px;
+    border: 3px dotted rgb(18, 28, 220);
+}
+
+#b {
+    width: 300px;
+    height: 300px;
+    border: 3px dotted hotpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#g {
+    width: 300px;
+    height: 300px;
+    border: 3px solid rebeccapurple;
+    text-align: right;
+}
+
+#c {
+    width: 100px;
+    height: 120px;
+    border: solid black;
+}
+
+#e {
+    width: 100px;
+    height: 120px;
+    border: solid black;
+    padding: 10 auto;
+    align-content: center;
+}
+

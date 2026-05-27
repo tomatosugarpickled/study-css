@@ -1,0 +1,240 @@
+
+body, html {
+    font-family: Pretendard Variable, Noto Sans KR;
+}
+
+* {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+blockquote, body, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+body, html {
+    line-height: 1;
+    font-family: Pretendard Variable, Noto Sans KR, Apple SD Gothic Neo, ë§‘ì  € ê³ ë”•, Malgun Gothic, sans-serif;
+    font-size: 15px;
+}
+
+html {
+    font-family: 'Pretendard Variable', sans-serif;
+    letter-spacing: -0.3px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.layout,.page,body,html {
+    height: 100%;
+}
+
+footer, header, main {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+}
+
+.body-wrap{
+    display: flex;
+    width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    min-height: 100%;
+    background-color: #fafafa;
+}
+
+.login-wrap {
+    flex: 1 0 auto;
+    margin: 0 auto;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0;
+    }
+
+.button {
+    cursor: pointer;
+    touch-action: manipulation;
+    margin-bottom: 62px;
+}
+
+.image {
+    width: auto;
+    height: 32px;
+    margin: 0 auto;
+    border: none;
+}
+
+.login-wrap .button {
+ margin-bottom: 62px;  
+}
+
+a {
+    color: #424242;
+    text-decoration: none;
+}
+
+.login-wrap-epl {
+    width: 300px;
+}
+
+.email-wrap {
+    position: relative;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.email {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+    padding: 13px 15px 14px;
+    margin: 0;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    line-height: 21px;
+    box-sizing: border-box;
+    font-family: Noto Sans KR, Noto Sans CJK KR, ë§‘ì  € ê³ ë”•, Malgun Gothic, sans-serif;
+}
+
+.email::placeholder {
+     color: #bdbdbd
+}
+
+.password-wrap {
+    position: relative;
+    font-size: 15px;
+    line-height: 1;
+}
+
+.password {
+    position: relative;
+    display: block;
+    width: 100%;
+    border-radius: 0 0 4px 4px;
+    margin-top: -1px;
+    padding: 13px 15px 14px;
+    font-size: 15px;
+    border: 1px solid #dbdbdb;
+    background-color: #fff;
+    line-height: 21px;
+    box-sizing: border-box;
+    
+}
+
+.password::placeholder {
+     color: #bdbdbd
+}
+
+.login {
+    margin: 20px 0;
+    width: 100%;
+    padding: 15px 10px;
+    line-height: 20px;
+    font-size: 17px;
+    min-height: 50px;
+    background-color: #0aa5ff;
+    border-color: #0aa5ff;
+    color: #fff;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    border: 1px solid transparent;
+    font-family: Noto Sans KR, Noto Sans CJK KR, ë§‘ì  € ê³ ë”•, Malgun Gothic, sans-serif;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    transition: color .1s, background-color .1s, border-color .1s;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.addupdate {
+    width: 100%;
+    text-align: center;
+}
+
+.update-password {
+    margin-left: 0;
+    cursor: pointer;
+}
+
+.add {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.sns {
+    margin: 35px 0 15px;
+    color: #757575;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 1.33;
+    text-align: center;
+}
+
+.sns-icon {
+    margin: 0 10px;
+    
+}
+
+.error {
+    margin-top: 24px;
+    margin-bottom: 0;
+    color: #c2c8cc;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.order {
+    width: 100%;
+    margin-top: 30px;
+    padding-top: 30px;
+    border-top: 1px solid #dbdbdb;
+}
+
+.unknown {
+    width: 100%;
+    background-color: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 15px;
+    line-height: 1.4;
+    color: #424242;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.unkown-div {
+    
+    overflow: hidden;
+    padding: 3px;
+    margin: -3px;
+    box-sizing: border-box;
+}
+
+.inc {
+    width: 100%;
+    color: #757575;
+    font-size: 10px;
+    line-height: 20px;
+    margin: -5px 0 25px;
+    text-align: center;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position - 실습</title>
+    <style>
+        #image {
+            margin: 0 auto;
+            width: 220px;
+            height: 315px;
+            background-image: url("https://gangnam.koreaisacademy.com/2023/img/tch/teacher007.png");
+            background-size: 100% 100%;
+            position: relative;
+            /* background-position: center;
+            background-repeat: no-repeat; */
+        }
+
+        .image1 {
+            position: absolute;
+            width: 100px; 
+            height: 100px;
+            background-image: url("//www.cocotimes.kr/data/photos/uploads/sites/2/2019/12/cm08109436_l-1.jpg");
+            background-size: 100% 100%;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .image2 {
+            position: absolute;
+            width: 100px; 
+            height: 100px;
+            background-image: url("https://png.pngtree.com/png-clipart/20210314/original/pngtree-optics-store-summer-sunglasses-png-image_6105138.jpg");
+            background-size: 100% 100%;
+            top: 45px;
+            right: 83px;
+        }
+
+        .image3 {
+            position: absolute;
+            width: 150px; 
+            height: 150px;
+            background-image: url("https://toppng.com/uploads/preview/holding-gun-png-clip-freeuse-library-holding-gun-pov-11562928377s9rnyiaruf.png");
+            background-size: 100% 100%;
+            bottom: 0px;
+            left: -150px;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="image">
+        <div class="image1"></div>
+        <div class="image2"></div>
+        <div class="image3"></div>
+    </div>
+    
+</body>
+</html>
